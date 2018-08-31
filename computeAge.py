@@ -1,4 +1,4 @@
-from datetime import datetime 
+from datetime import datetime
 #capturing the users yearOfBirthprint(mydic)
 def computeAge(yearOfBirth):
     if not isinstance(yearOfBirth, int):
