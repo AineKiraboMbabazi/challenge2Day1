@@ -1,6 +1,7 @@
 from datetime import datetime
 #capturing the users yearOfBirthprint(mydic)
-def computeAge(yearOfBirth):
+def computeAge():
+    yearOfBirth =int(input("Enter your year of birth: "))
     if not isinstance(yearOfBirth, int):
         raise ValueError 
     current=datetime.now().year
@@ -18,7 +19,7 @@ def computeAge(yearOfBirth):
 
 
 if __name__ == "__main__":
-     yearOfBirth =int(input("Enter your year of birth: "))
+    
      
-     print(computeAge(yearOfBirth))
+     print(computeAge())
 
