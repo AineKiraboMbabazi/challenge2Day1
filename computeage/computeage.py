@@ -1,6 +1,6 @@
 from datetime import datetime
 #capturing the users yearOfBirthprint(mydic)
-def computeAge(yearOfBirth):
+def compute_age(yearOfBirth):
     if not isinstance(yearOfBirth, int):
         raise ValueError ('invalid input')
     current=datetime.now().year
